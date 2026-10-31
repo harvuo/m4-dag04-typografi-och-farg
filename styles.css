@@ -53,6 +53,30 @@ nav a {
   color: #ffffff;
 }
 
+a {
+  color: #8c1010;
+}
+a:hover,
+a:focus {
+  color: #5e0a0a;
+  text-decoration-thickness: 3px;
+}
+
+a:focus-visible,
+.knapp:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #1a73e8; /* 3 px linje */
+  outline-offset: 2px; /* 2 px avstånd */
+}
+
+input,
+textarea,
+select {
+  border: 2px solid #8a7a6a;
+}
+
 main {
   padding: 24px;
   max-width: 1100px;
@@ -86,6 +110,14 @@ article img,
   border: 0;
   border-radius: 6px;
   text-decoration: none;
+}
+
+.knapp:hover {
+  background-color: #5e0a0a;
+}
+
+.pris {
+  color: #8c1010;
 }
 
 footer {
