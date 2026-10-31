@@ -75,6 +75,18 @@ input,
 textarea,
 select {
   border: 2px solid #8a7a6a;
+  width: 100%;
+  max-width: 28rem;
+  padding: 10px 12px;
+  border: 2px solid #8a7a6a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+#hero {
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 main {
@@ -106,6 +118,7 @@ article img,
   display: inline-block;
   background-color: #8c1010;
   color: #ffffff;
+  transition: background-color 0.15s ease;
   padding: 12px 20px;
   border: 0;
   border-radius: 6px;
